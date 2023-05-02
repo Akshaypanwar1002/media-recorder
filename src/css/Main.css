@@ -1,0 +1,127 @@
+.main {
+    display: flex;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.main .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 20vw;
+    min-height: 90vh;
+    background-color:lightblue;
+    color: white;
+}
+
+.main .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80vw;
+    min-height: 90vh;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.main .right .recording-area {
+    height: 300px;
+    width: 500px;
+    border: 1px solid green;
+}
+.main .recorded-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:30px;
+
+
+}
+
+.main .recorded-item a {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    margin: 10px;
+    background-color: rgb(193, 58, 4);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+@media (530px <= width <= 940px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main .left{
+        width:100vw;
+        min-height:10vh;
+
+    }
+
+    .main .right{
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .main .right .recording-area {
+        max-width: 700px;
+        max-height: 500px;
+    }
+
+    .options{
+        display: flex;
+        flex-wrap: wr;
+        width: 100px;
+    }
+    
+}
+
+@media (200px <= width <= 529px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main .left{
+        width:100vw;
+        min-height:10vh;
+
+    }
+
+    .main .right{
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .main .right .recording-area {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .options{
+       font-size: 10px;
+       gap: 1px;
+    }
+    
+
+}

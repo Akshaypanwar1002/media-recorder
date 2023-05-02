@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    background-color:lightblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.nav .social ul li {
+    display: inline;
+    padding: 20px;
+   
+}
+.nav .social ul li a{
+    color: white;
+}
+@media (200px <= width <= 529px){
+    .nav{}
+.nav .social{
+    display: none;
+}
+
+}
