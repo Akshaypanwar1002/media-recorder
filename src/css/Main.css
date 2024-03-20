@@ -10,8 +10,9 @@
     align-items: center;
     min-width: 20vw;
     min-height: 90vh;
-    background-color:lightblue;
-    color: white;
+    background-color:blueviolet;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .main .right {
@@ -24,12 +25,16 @@
     min-height: 90vh;
     background-color: whitesmoke;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .main .right .recording-area {
     height: 300px;
     width: 500px;
-    border: 1px solid green;
+    border: 1px solid blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 .main .recorded-item{
     display: flex;
@@ -48,6 +53,8 @@
     color: white;
     padding: 5px;
     border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .options {

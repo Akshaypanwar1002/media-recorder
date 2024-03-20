@@ -1,12 +1,14 @@
 .nav {
     display: flex;
-    background-color:lightblue;
+    background-color:blueviolet;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    color: white;
+    color: #000;
     font-family: 'Castoro Titling', cursive;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .nav .social ul li {
@@ -15,7 +17,7 @@
    
 }
 .nav .social ul li a{
-    color: white;
+    color: #000;
 }
 @media (200px <= width <= 529px){
     .nav{}
